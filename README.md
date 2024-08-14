@@ -5,7 +5,10 @@ This repository contains a collection of Ruby scripts designed to assist with co
 ## Scripts
 
 ### 1. `update_redirect_pages.rb`
-==Note: This script is particularly useful if you host your Jekyll site on Cloudflare Pages and need to manage redirects for any reason.==
+> [!NOTE]
+>
+> This script is particularly useful if you host your Jekyll site on Cloudflare Pages and need to manage redirects for any reason.
+
 This script scans through your Jekyll posts and updates any outdated or improperly formatted slugs in the `_redirects` file.
 
 **Features:**
@@ -34,7 +37,10 @@ This script checks for inconsistencies between the date in a post's filename and
 ```
 
 ### 3. Check Redirects
-==Note: This script is also particularly useful if you host your Jekyll site on Cloudflare Pages and need to verify that redirects are working correctly.==
+> [!NOTE]
+>
+> This script is also particularly useful if you host your Jekyll site on Cloudflare Pages and need to verify that redirects are working correctly.
+
 This script verifies the redirects in your `_redirects` file by making HTTP requests to the original URLs and checking the response codes.
 
 **Features:**
